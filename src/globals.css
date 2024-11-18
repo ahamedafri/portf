@@ -49,15 +49,15 @@
     }
 
     [data-theme="cyber"] {
-      --color-text-base: 15, 15, 15;
-      --color-text-muted: 144, 135, 5;
-      --color-text-inverted: 240, 240, 240;
-      --color-fill: 252, 255, 64;
-      --muted: 50, 50, 50;
-      --color: 235, 21, 43;
-      --color-button-accent: 235, 21, 43;
-      --color-button-accent-hover: 0, 185, 255;
-      --color-button-muted: 249, 239, 6;
+      --color-text-base: 0, 0, 0;
+      --color-text-muted: 120, 120, 120;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 245, 245, 245;
+      --muted: 200, 200, 200;
+      --color: 249, 115, 22;
+      --color-button-accent: 249, 115, 22;
+      --color-button-accent-hover: 55, 55, 55;
+      --color-button-muted: 244, 239, 238;
     }
 
     [data-theme="pink"] {
