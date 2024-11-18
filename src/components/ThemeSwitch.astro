@@ -23,12 +23,12 @@ import { Icon } from 'astro-icon/components'
     <select
       id='themeSelect'
       class='block w-full rounded-md border-0 bg-transparent py-1.5 pl-3 pr-10 text-skin-base ring-1 ring-inset ring-skin-muted focus:ring-2 focus:ring-skin-hue sm:text-sm sm:leading-6'>
-      <option value='red'>Red</option>
+      <!-- <option value='red'>Red</option>
       <option value='pink'>Pink</option>
-      <option value='orange'>Orange</option>
+      <option value='orange'>Orange</option> -->
       <option value='cyber'>Cyberpunk</option>
-      <option value='green'>Green</option>
-      <option value='blue'>Blue</option>
+      <!-- <option value='green'>Green</option>
+      <option value='blue'>Blue</option> -->
     </select>
   </div>
 </div>
@@ -125,7 +125,7 @@ import { Icon } from 'astro-icon/components'
   // Initialize data-theme based on stored value or default
   const storedDataTheme =
     localStorage.getItem('data-theme') ||
-    document.body.getAttribute('data-theme')!
+     'cyber'
 
   updateDataTheme(storedDataTheme)
 
